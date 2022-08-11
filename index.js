@@ -50,7 +50,7 @@ async function run(){
           res.send(result);
     })
 
-    //Add Product
+    //Add Blog
     app.post('/blogs', async(req,res)=>{
         const blog = req.body;
         const doc ={
